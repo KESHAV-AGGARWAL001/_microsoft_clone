@@ -1,0 +1,39 @@
+#body {
+  width: 100%;
+  animation: changeBg 10s linear infinite;
+  position: relative;
+}
+
+@keyframes changeBg {
+  0%,
+  100% {
+    background-color: chartreuse;
+  }
+  10% {
+    background-color: rgb(229, 133, 133);
+  }
+  20% {
+    background-color: pink;
+  }
+  30% {
+    background-color: skyblue;
+  }
+  40% {
+    background-color: rgb(129, 129, 211);
+  }
+  50% {
+    background-color: rgb(229, 229, 154);
+  }
+  60% {
+    background-color: rgb(247, 149, 198);
+  }
+  70% {
+    background-color: khaki;
+  }
+  80% {
+    background-color: #7272d6;
+  }
+  90% {
+    background-color: #8fbc8f;
+  }
+}
